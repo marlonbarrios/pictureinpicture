@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bungee+Shade&family=Cairo:wght@300;400&family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bungee+Shade&family=Cairo:wght@300;400&family=Montserrat:wght@100;600&family=Open+Sans:wght@300&display=swap');
 html {
     box-sizing: border-box;
 }
 body {
+    color: black;
  padding: 0 ;
     min-height: 100vh;
     display: flex;
@@ -16,7 +17,8 @@ body {
 
 video {
     
-    background: linear-gradient(to bottom, #696969, #575757);
+    background: linear-gradient(to bottom, #696969, #781f1f);
+   margin-bottom: 15px;
 }
 .button-container {
     border:2px solid black ;
@@ -45,11 +47,45 @@ button:hover {
     background: linear-gradient(to bottom, #696969, #575757);
     color: greenyellow;
 }
+button2:hover {
+    background: linear-gradient(to bottom, #696969, #575757);
+    color: greenyellow;
+}
+
 button:active {
+    transform: translateY(3px);
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);;
+    color: red;
+    text-shadow: 5px 5px 5px rgb(242, 55, 55);
+   }
+
+button2:active {
  transform: translateY(3px);
  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);;
  color: red;
  text-shadow: 5px 5px 5px rgb(242, 55, 55);
+}
+
+p, a{
+    color: rgb(72, 3, 3);
+    text-decoration: none;
+    font-family: Barlow, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+ul {
+    color: rgb(72, 3, 3);
+    text-decoration: none;
+    font-family: Barlow, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   
 
 }
 
